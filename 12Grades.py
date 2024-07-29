@@ -1,5 +1,6 @@
-gradey = 40
-if gradey >= 55:
-    print("You passed.")
+grade = 75
+
+if grade >= 55:
+    print("Aprobó")
 else:
-    print("You failed.")
+    print("Falló")

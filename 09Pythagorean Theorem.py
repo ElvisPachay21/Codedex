@@ -1,8 +1,8 @@
+import math
 
-username = input('Enter your name: ')
+a = float(input("Introduce el valor del cateto a: "))
+b = float(input("Introduce el valor del cateto b: "))
 
-print(username)
+c = math.sqrt(a**2 + b**2)
 
-age = int(input('What is your age? '))
-
-print(age)
+print(f"La hipotenusa es: {c:.2f}")

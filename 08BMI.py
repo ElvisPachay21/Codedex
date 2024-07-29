@@ -1,7 +1,7 @@
 
-score = 2 ** 2      # score is 4
-score = 2 ** 3      # score is now 8
-score = 2 ** 4      # score is now 16
-score = 2 ** 5      # score is now 32
+peso = 80
+altura = 1.79
 
-print(score)        # Output: 32
+imc = peso / (altura ** 2)
+
+print(f"El IMC es: {imc:.2f}")

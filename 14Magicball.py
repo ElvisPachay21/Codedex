@@ -1,11 +1,7 @@
 import random
 
-def magic_8_ball():
-    respuestas = ["Sí.","No.","Tal vez.",]
-    respuesta = random.choice(respuestas)
-    
-    return respuesta
+def get_random_answer():
+    return random.choice(["Sí", "No"])
 
-if __name__ == "__main__":
-    input("¡Haz tu pregunta! ")
-    print(magic_8_ball())
+input("Hazme una pregunta: ")
+print(get_random_answer())

@@ -50,7 +50,6 @@ elif answer3 == 4:
 else:
     print("Entrada incorrecta")
 
-# Mostrar resultados
 print("\nPuntuaciones finales:")
 for house, score in points.items():
     print(f"{house}: {score}")
